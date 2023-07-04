@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 // app.use((req, res) => {
-//     console.log("We got a new request");     //this is a comment
+//     console.log("We got a new request");     //this is a comment added 
 //     res.send("This is the homepage");
 // })
 
