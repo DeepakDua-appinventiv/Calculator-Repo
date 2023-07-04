@@ -2,12 +2,12 @@ const express = require("express");
 const app = express();
 
 // app.use((req, res) => {
-//     console.log("We got a new request");
+//     console.log("We got a new request");     //this is a comment
 //     res.send("This is the homepage");
 // })
 
 app.get('/', (req, res) => {
-    res.send('This is the homepage');  // This is a message
+    res.send('This is the homepage');  
 })
 
 app.get('/add/:a/:b', (req, res) => {
