@@ -7,7 +7,7 @@ const app = express();
 // })
 
 app.get('/', (req, res) => {
-    res.send('This is the homepage');
+    res.send('This is the homepage');  // This is a message
 })
 
 app.get('/add/:a/:b', (req, res) => {
